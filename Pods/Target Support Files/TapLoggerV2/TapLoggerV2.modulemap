@@ -1,0 +1,6 @@
+framework module TapLoggerV2 {
+  umbrella header "TapLoggerV2-umbrella.h"
+
+  export *
+  module * { export * }
+}

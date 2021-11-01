@@ -1,0 +1,62 @@
+PODS:
+  - TapAdditionsKitV2 (0.0.8):
+    - TapSwiftFixesV2
+  - TapApplicationV2 (0.0.2):
+    - TapAdditionsKitV2
+  - TapFontsKitV2 (0.0.3):
+    - TapAdditionsKitV2
+  - TapLocalization/Notifications (1.1.5)
+  - TapLoggerV2 (1.0.1):
+    - TapAdditionsKitV2
+  - TapNibViewV2 (0.0.2):
+    - TapAdditionsKitV2
+  - TapSearchViewV2 (0.0.4):
+    - TapAdditionsKitV2
+    - TapNibViewV2
+  - TapSwiftFixesV2 (1.0.0):
+    - TapSwiftFixesV2/CoreGraphics (= 1.0.0)
+    - TapSwiftFixesV2/Exceptions (= 1.0.0)
+    - TapSwiftFixesV2/Threading (= 1.0.0)
+  - TapSwiftFixesV2/CoreGraphics (1.0.0)
+  - TapSwiftFixesV2/Exceptions (1.0.0)
+  - TapSwiftFixesV2/Threading (1.0.0)
+  - TapVisualEffectViewV2 (0.0.2):
+    - TapAdditionsKitV2
+    - TapNibViewV2
+
+DEPENDENCIES:
+  - TapAdditionsKitV2
+  - TapApplicationV2
+  - TapFontsKitV2
+  - TapLocalization/Notifications
+  - TapLoggerV2
+  - TapSearchViewV2
+  - TapVisualEffectViewV2
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - TapAdditionsKitV2
+    - TapApplicationV2
+    - TapFontsKitV2
+    - TapLoggerV2
+    - TapNibViewV2
+    - TapSearchViewV2
+    - TapSwiftFixesV2
+    - TapVisualEffectViewV2
+  https://github.com/Tap-Payments/PodSpecs:
+    - TapLocalization
+
+SPEC CHECKSUMS:
+  TapAdditionsKitV2: ba369802e9575c3475ce6d5af228cf60c68edfc9
+  TapApplicationV2: aee3d046c4272778431e1535de6cab34e1269f8c
+  TapFontsKitV2: f2a5b342c18784dd2068c1885313057780c49a3d
+  TapLocalization: 2c581e886ffadef5c78de04220c79a8b319b4943
+  TapLoggerV2: ef63571a8b96640c7bb171724ff61aef3aa21e71
+  TapNibViewV2: 814b18346837d9dab611a211a702b9b0b8369d07
+  TapSearchViewV2: a167173db767a2be86d66c319cbb6b8da1541531
+  TapSwiftFixesV2: a8623a7273c6790b9754ec7e272e96fce7d3a800
+  TapVisualEffectViewV2: b612ffee4d05004c449d433fe45aba9563c8a508
+
+PODFILE CHECKSUM: 431d658c4ee99fe343a6da9f1a6497e1d3a96785
+
+COCOAPODS: 1.10.1

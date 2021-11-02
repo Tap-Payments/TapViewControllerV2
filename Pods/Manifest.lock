@@ -42,7 +42,7 @@ DEPENDENCIES:
   - TapVisualEffectViewV2
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  trunk:
     - TapAdditionsKitV2
     - TapApplicationV2
     - TapDatabaseV2
@@ -66,6 +66,6 @@ SPEC CHECKSUMS:
   TapSwiftFixesV2: a8623a7273c6790b9754ec7e272e96fce7d3a800
   TapVisualEffectViewV2: b612ffee4d05004c449d433fe45aba9563c8a508
 
-PODFILE CHECKSUM: 31443b7cf363dffb1625802fc14a1d77e27a7f88
+PODFILE CHECKSUM: a131ce34d53ae8f53ed7a464eaa7dc4328d85230
 
 COCOAPODS: 1.10.1

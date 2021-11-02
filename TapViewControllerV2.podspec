@@ -7,7 +7,7 @@ Pod::Spec.new do |tapViewController|
     tapViewController.name = 'TapViewControllerV2'
     tapViewController.summary = 'Set of Base View Controllers.'
     tapViewController.requires_arc = true
-    tapViewController.version = '1.0.1'
+    tapViewController.version = '1.0.2'
     tapViewController.license = { :type => 'MIT', :file => 'LICENSE' }
     tapViewController.author = { 'Osama Rabie' => 'o.rabie@tap.company' }
     tapViewController.homepage = 'https://github.com/Tap-Payments/TapViewControllerV2'

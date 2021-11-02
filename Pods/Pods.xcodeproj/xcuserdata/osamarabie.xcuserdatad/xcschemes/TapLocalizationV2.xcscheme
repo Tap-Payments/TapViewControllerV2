@@ -14,9 +14,9 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "72318D260222021CC3A95C04EF0D45EE"
-               BuildableName = "TapLocalization.framework"
-               BlueprintName = "TapLocalization"
+               BlueprintIdentifier = "FA2206D338E81EAF7A9EAFA8256B3327"
+               BuildableName = "TapLocalizationV2.framework"
+               BlueprintName = "TapLocalizationV2"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

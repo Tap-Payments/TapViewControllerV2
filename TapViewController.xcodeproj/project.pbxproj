@@ -16,7 +16,6 @@
 		A41D1F091FBF4D3D007AF665 /* TapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41D1F081FBF4D3D007AF665 /* TapViewController.swift */; };
 		A41D1F0B1FBF4D6D007AF665 /* TapNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41D1F0A1FBF4D6D007AF665 /* TapNavigationController.swift */; };
 		A41D1F0D1FBF4D92007AF665 /* TapTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41D1F0C1FBF4D92007AF665 /* TapTableViewController.swift */; };
-		A41D1F0F1FBF5DD3007AF665 /* TapViewController.podspec in Resources */ = {isa = PBXBuildFile; fileRef = A41D1F0E1FBF5DD2007AF665 /* TapViewController.podspec */; };
 		A4248AEF1FD942D70009D6BC /* PopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4248AEE1FD942D70009D6BC /* PopupViewController.swift */; };
 		A4248AF11FD944920009D6BC /* PopupPresentationStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4248AF01FD944920009D6BC /* PopupPresentationStyle.swift */; };
 		A4248AF31FD946730009D6BC /* ViewControllerPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4248AF21FD946730009D6BC /* ViewControllerPopup.swift */; };
@@ -34,6 +33,7 @@
 		A4C4D60B1FE2E2F70077772F /* TapViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4C4D60A1FE2E2F70077772F /* TapViewController.storyboard */; };
 		A4C4D60D1FE2E9200077772F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4C4D60C1FE2E9200077772F /* Images.xcassets */; };
 		A4C4D60F1FE2EADC0077772F /* UIStoryboard+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C4D60E1FE2EADC0077772F /* UIStoryboard+Additions.swift */; };
+		E8440B9327310E100044C3A4 /* TapViewControllerV2.podspec in Resources */ = {isa = PBXBuildFile; fileRef = E8440B9227310E100044C3A4 /* TapViewControllerV2.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,7 +48,6 @@
 		A41D1F081FBF4D3D007AF665 /* TapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapViewController.swift; sourceTree = "<group>"; };
 		A41D1F0A1FBF4D6D007AF665 /* TapNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapNavigationController.swift; sourceTree = "<group>"; };
 		A41D1F0C1FBF4D92007AF665 /* TapTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapTableViewController.swift; sourceTree = "<group>"; };
-		A41D1F0E1FBF5DD2007AF665 /* TapViewController.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TapViewController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A4248AEE1FD942D70009D6BC /* PopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupViewController.swift; sourceTree = "<group>"; };
 		A4248AF01FD944920009D6BC /* PopupPresentationStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupPresentationStyle.swift; sourceTree = "<group>"; };
 		A4248AF21FD946730009D6BC /* ViewControllerPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerPopup.swift; sourceTree = "<group>"; };
@@ -67,6 +66,7 @@
 		A4C4D60C1FE2E9200077772F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A4C4D60E1FE2EADC0077772F /* UIStoryboard+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Additions.swift"; sourceTree = "<group>"; };
 		C0C59F09F2D4EF326C2217E3 /* Pods_TapViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TapViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8440B9227310E100044C3A4 /* TapViewControllerV2.podspec */ = {isa = PBXFileReference; lastKnownFileType = file; path = TapViewControllerV2.podspec; sourceTree = SOURCE_ROOT; };
 		FD249A1BFBBB43F683D41710 /* Pods-TapViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapViewController.release.xcconfig"; path = "Pods/Target Support Files/Pods-TapViewController/Pods-TapViewController.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -102,7 +102,6 @@
 		A41D1EED1FBF4B1E007AF665 = {
 			isa = PBXGroup;
 			children = (
-				A41D1F0E1FBF5DD2007AF665 /* TapViewController.podspec */,
 				A41D1EF91FBF4B1E007AF665 /* TapViewController */,
 				A41D1EF81FBF4B1E007AF665 /* Products */,
 				9569190511B3EE981170046E /* Pods */,
@@ -121,6 +120,7 @@
 		A41D1EF91FBF4B1E007AF665 /* TapViewController */ = {
 			isa = PBXGroup;
 			children = (
+				E8440B9227310E100044C3A4 /* TapViewControllerV2.podspec */,
 				A41D1EFA1FBF4B1E007AF665 /* TapViewController.h */,
 				A41D1EFB1FBF4B1E007AF665 /* Info.plist */,
 				A41D1F021FBF4C19007AF665 /* Source */,
@@ -239,7 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4C4D60D1FE2E9200077772F /* Images.xcassets in Resources */,
-				A41D1F0F1FBF5DD3007AF665 /* TapViewController.podspec in Resources */,
+				E8440B9327310E100044C3A4 /* TapViewControllerV2.podspec in Resources */,
 				A4C4D60B1FE2E2F70077772F /* TapViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

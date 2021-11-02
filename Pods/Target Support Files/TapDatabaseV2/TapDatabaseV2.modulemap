@@ -1,0 +1,6 @@
+framework module TapDatabaseV2 {
+  umbrella header "TapDatabaseV2-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -8,7 +8,7 @@
 
 import TapSwiftFixesV2
 import TapAdditionsKitV2
-import var TapLocalization.tapLocalizationChangedNotificationName
+import TapLocalizationV2
 import UIKit
 
 /// View Controller implementation.

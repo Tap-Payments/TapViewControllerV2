@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double TapLocalizationVersionNumber;
-FOUNDATION_EXPORT const unsigned char TapLocalizationVersionString[];
+FOUNDATION_EXPORT double TapDatabaseV2VersionNumber;
+FOUNDATION_EXPORT const unsigned char TapDatabaseV2VersionString[];
 

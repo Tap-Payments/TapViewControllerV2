@@ -18,7 +18,7 @@ Pod::Spec.new do |tapViewController|
     tapViewController.dependency 'TapAdditionsKitV2'
     tapViewController.dependency 'TapApplicationV2'
     tapViewController.dependency 'TapFontsKitV2'
-    tapViewController.dependency 'TapLocalization/Notifications'
+    tapViewController.dependency 'TapLocalizationV2'
     tapViewController.dependency 'TapLoggerV2'
     tapViewController.dependency 'TapSearchViewV2'
     tapViewController.dependency 'TapVisualEffectViewV2'    

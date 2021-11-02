@@ -1,6 +1,0 @@
-framework module TapLocalization {
-  umbrella header "TapLocalization-umbrella.h"
-
-  export *
-  module * { export * }
-}
